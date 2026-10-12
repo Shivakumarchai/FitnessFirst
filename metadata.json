@@ -1,0 +1,6 @@
+{
+  "name": "FitnessFirst GYM",
+  "description": "FitnessFirst GYM in Mayadevi-06, Rupandehi, Nepal. Premium athletic strength training, modern facilities, certified coaching, and real membership registration with eSewa and Khalti integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

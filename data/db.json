@@ -1,0 +1,109 @@
+{
+  "plans": {
+    "starter": {
+      "id": "starter",
+      "name": "STARTER",
+      "price": 1200,
+      "durationText": "month",
+      "description": "Suitable for members beginning their fitness journey.",
+      "features": [
+        "Full Gym Floor & Free Weights Access",
+        "Locker Room & Shower Amenities",
+        "Equipment Orientation & Form Guidance",
+        "Access During Standard Gym Hours (6 AM – 9 PM)"
+      ]
+    },
+    "pro": {
+      "id": "pro",
+      "name": "PRO",
+      "price": 2000,
+      "durationText": "month",
+      "description": "For members looking for a more structured training experience.",
+      "isFeatured": true,
+      "features": [
+        "All Starter Plan Benefits",
+        "Personal Baseline Assessment & Progress Tracking",
+        "Customized 4-Week Strength Routine",
+        "Access to Functional Rig & Cardio Arena",
+        "1 Complimentary Guest Pass Every Month"
+      ]
+    },
+    "elite": {
+      "id": "elite",
+      "name": "ELITE",
+      "price": 3000,
+      "durationText": "month",
+      "description": "For members who want the premium membership option.",
+      "features": [
+        "All Pro Plan Benefits",
+        "Dedicated Locker Storage Reservation",
+        "Monthly 1-on-1 Certified Coach Check-in",
+        "Personalized Nutrition & Protein Guidance",
+        "Priority Equipment Reservation & Off-peak Access",
+        "Unlimited Weekend Guest Passes"
+      ]
+    }
+  },
+  "memberships": [
+    {
+      "id": "FF-2026-DVVMV",
+      "fullName": "Ramesh Thapa",
+      "phone": "9807404088",
+      "email": "",
+      "planId": "pro",
+      "planName": "PRO",
+      "months": 1,
+      "monthlyPrice": 2000,
+      "totalAmount": 2000,
+      "currency": "NPR",
+      "status": "PAID",
+      "paymentMethod": "esewa",
+      "transactionUuid": "FFG-1791774968590-DVVMV",
+      "membershipStartDate": "2026-10-12T03:16:49.010Z",
+      "membershipEndDate": "2026-11-12T03:16:49.010Z",
+      "termsAccepted": true,
+      "createdAt": "2026-10-12T03:16:08.590Z",
+      "paymentRef": "ESEWA-TEST-992102",
+      "paymentDate": "2026-10-12T03:16:49.010Z"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "coach-1",
+      "name": "Shivaraj Achai",
+      "title": "Head Strength & Conditioning Coach",
+      "specialty": "Powerlifting, Functional Hypertrophy & Olympic Lifting",
+      "bio": "Dedicated to building sustainable athletic strength and disciplined form. Believes proper biomechanics and progressive overload are the cornerstones of lasting physical change.",
+      "certifications": [
+        "CSCS Certified Strength Specialist",
+        "CPR & First Aid Certified"
+      ],
+      "imageUrl": "/src/assets/images/trainer_lead_coach_1791774026774.jpg",
+      "schedule": "Mon - Sat: 6:00 AM - 1:00 PM"
+    },
+    {
+      "id": "coach-2",
+      "name": "Performance Specialist",
+      "title": "Functional Conditioning & Mobility Coach",
+      "specialty": "Metabolic Conditioning, Core Stability & Injury Prevention",
+      "bio": "Focuses on dynamic functional movement patterns, cardiovascular endurance, and athletic longevity for everyday lifters and competitive athletes.",
+      "certifications": [
+        "Functional Movement Specialist",
+        "Sports Nutrition Certified"
+      ],
+      "imageUrl": "/src/assets/images/program_functional_athletic_1791774010834.jpg",
+      "schedule": "Mon - Sat: 2:00 PM - 9:00 PM"
+    }
+  ],
+  "inquiries": [],
+  "gymInfo": {
+    "name": "FitnessFirst GYM",
+    "address": "Mayadevi Rural Municipality–06, Rupandehi, Amuwa Road, Nepal",
+    "lat": 27.5190771,
+    "lng": 83.3925082,
+    "phone": "+977-9807404088",
+    "email": "shivarajachai@gmail.com",
+    "hours": "Sunday – Friday: 5:30 AM – 9:30 PM | Saturday: 6:00 AM – 7:00 PM",
+    "esewaMerchant": "EPAYTEST"
+  }
+}
